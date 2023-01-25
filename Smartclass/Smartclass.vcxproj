@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Myclass.cpp" />
     <ClCompile Include="Smartclass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Myclass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
